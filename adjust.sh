@@ -7,6 +7,10 @@ sudo nano /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq
 ##Disable Boost
 sudo nano /sys/devices/system/cpu/cpufreq/boost 
 
+##Disable Boost on Artix Openrc
+vim /sys/devices/system/cpu/cpu*/cpufreq/boost
+
+
 ## Remove Nvidia
 sudo nano /etc/udev/rules.d/00-remove-nvidia.rules 
 
