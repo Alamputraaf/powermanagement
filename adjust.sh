@@ -9,6 +9,8 @@ sudo nano /sys/devices/system/cpu/cpufreq/boost
 
 ##Disable Boost on Artix Openrc
 vim /sys/devices/system/cpu/cpu*/cpufreq/boost
+kuonichinose:[ichinose]:~$ sudo  vim /sys/devices/system/cpu/cpufreq/boost 
+
 
 
 ## Remove Nvidia
